@@ -12,6 +12,7 @@ const jobSchema = new mongoose.Schema({
     "country": { type: String, required: true },
     "viewed": { type: String, required: true },
     "applied": { type: String, required: true },
+    "experience": { type: String, required: true },
     "job_description": { type: String, required: true },
     "job_type": { type: String, required: true },
     "industry": { type: String, required: true },
@@ -21,7 +22,7 @@ const jobSchema = new mongoose.Schema({
     "education": { type: String, required: true },
     "post_date": { type: String, required: true },
     "company_description": { type: String, required: true },
-    "is_remote": { type: String, required: true },
+    "is_remote": { type: String, required:true},
     "has_expired": { type: String, required: true },
 })
 
